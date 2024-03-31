@@ -23,16 +23,16 @@ const RightSideNav = () => {
             <div className='p-4'>
                 <h2 className="text-2xl font-bold mb-4 ">Find Us On</h2>
                 <div>
-                    <a className='flex text-lg font-medium items-center border p-4 rounded-t-xl' href="">
-                        <FaFacebook className='mr-2'/>
-                       <span> Facebook</span>
+                    <a className='flex text-lg font-medium items-center border p-4 rounded-t-xl' href="https://www.facebook.com/profile.php?id=100080203446922" target='_blank '>
+                        <FaFacebook className='mr-2' />
+                        <span> Facebook</span>
                     </a>
                     <a className='flex text-lg font-medium items-center border p-4' href="">
-                        <FaTwitter className='mr-2'/>
+                        <FaTwitter className='mr-2' />
                         Facebook
                     </a>
                     <a className='flex text-lg font-medium items-center border p-4 rounded-b-lg' href="">
-                        <FaInstagram className='mr-2'/>
+                        <FaInstagram className='mr-2' />
                         Facebook
                     </a>
                 </div>
@@ -43,7 +43,7 @@ const RightSideNav = () => {
                 <img src={qZone1} alt="" />
                 <img src={qZone2} alt="" />
                 <img src={qZone3} alt="" />
-                
+
             </div>
         </div>
     );
